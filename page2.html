@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Alignment</title>
+    <style>
+        .align-items-example {
+            display: flex;
+            flex-wrap: wrap;
+            height: 200px;
+            background-color: lightblue;
+            align-items: flex-end; /* Aligns items vertically within each line */
+        }
+
+        .align-content-example {
+            display: flex;
+            flex-wrap: wrap;
+            height: 200px;
+            background-color: lightcoral;
+            align-content:flex-start ; /* Aligns flex lines with space between them */
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="align-items-example">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+
+    <div class="align-content-example">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+</body>
+</html>

@@ -127,16 +127,17 @@ ul>li:hover{
     margin: 10px;
     border: 10px solid yellowgreen;
     border-radius: 50px;
+    height: 100vh;
 
-
-    display: flex;
+    display: flex; /* important+*/
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    flex-wrap: wrap;
+    align-items: flex-end; 
+   
 }
 
-.flex-item{
+.flex-item1{
     color: rgb(139, pink, 60);
     font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
@@ -148,6 +149,43 @@ ul>li:hover{
     border-radius: 10px;
     height: 30vh;
     width: 30vh;
-    
-
+}
+.flex-item2{
+    color: rgb(139, pink, 60);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(253, 249, 17);
+    padding: 20px;
+    margin: auto;
+    border: 10px solid salmon;
+    border-color: pink;
+    border-radius: 10px;
+    height: 5vh;
+    width: 30vh;
+}
+.flex-item3{
+    color: rgb(139, pink, 60);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(253, 249, 17);
+    padding: 20px;
+    margin: auto;
+    border: 10px solid salmon;
+    border-color: pink;
+    border-radius: 10px;
+    height: 18vh;
+    width: 30vh;
+}
+.flex-item4{
+    color: rgb(139, pink, 60);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(253, 249, 17);
+    padding: 20px;
+    margin: auto;
+    border: 10px solid salmon;
+    border-color: pink;
+    border-radius: 10px;
+    height: 30vh;
+    width: 30vh;
 }
