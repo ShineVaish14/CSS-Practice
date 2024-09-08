@@ -1,0 +1,153 @@
+
+
+.blue{
+    color: #0000FF;
+}
+
+h1{
+    color: rgb(30, 192, 30);
+}
+
+.box{
+    height: 100px;
+    width: 20em;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+    background-color: red;
+
+}
+
+#vaishs-h1 {
+    
+    background-color: rgba(255, 255, 0, 0.726);
+    color: green;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    width: 150px ;
+    height: 100px;
+    position: fixed;
+    top:0;
+    left:0;
+    border: groove;
+    border-color: #0000FF;
+    font-size: large;
+    
+}
+
+.fancy-border{
+     border: 5px dashed red;
+     background-color: rgb(173, 248, 248);
+}
+
+
+
+#outline1{
+    
+    outline-style: groove;
+    outline-color: purple;
+    outline-width: 10px;
+    outline-offset: 5px;
+    border: 10px solid yellow;
+    text-align: justify;
+    text-align-last: center;  
+    text-decoration-color: blue;
+    text-decoration-line: underline ;
+    text-decoration-style: wavy;
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 2px;
+    letter-spacing: -2px;
+    word-spacing: 10px;
+    white-space: wrap;
+    text-shadow: 2px 2px 4px red;
+    font-weight: normal;
+    font-family: Tangerine,serif;
+}
+
+
+a:link, a:visited{
+    background-color: white;
+    color: green;
+    border:2px solid green;
+    text-align: center;
+    padding: 10px;
+
+
+}
+a:hover{
+    background-color:rgb(29, 248, 29) ;
+    color:white ;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+ol.a{
+    list-style-type: lower-roman;
+}
+ul.a{
+    list-style-image: url("83_43676_9be83a54-6291-46c6-aafd-b7bf0c4f8b50.svg");
+    
+}
+
+ul li{
+    background-color: violet;
+    margin: 5px;
+    padding: 3px;
+    text-align: left;
+    color: purple;
+
+}
+
+ul>li:hover{
+    background-color: yellow;
+    font-size: 40px;
+}
+
+.divi{
+
+    width: 350px;
+    color: rgb(233, 215, 218);
+    padding-left: 30px;
+    margin: 40px;
+    border: 10px double rgb(78, 21, 131);
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline-style: dashed;
+    outline-width: 8px;
+    outline-color: aqua; 
+}
+
+.flex-cointainer{
+    background-color: mediumseagreen;
+    padding: 20px;
+    margin: 10px;
+    border: 10px solid yellowgreen;
+    border-radius: 50px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex-item{
+    color: rgb(139, pink, 60);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(253, 249, 17);
+    padding: 20px;
+    margin: auto;
+    border: 10px solid salmon;
+    border-color: pink;
+    border-radius: 10px;
+    height: 30vh;
+    width: 30vh;
+    
+
+}
