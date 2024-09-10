@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyResponsiveForm</title>
+    <style>
+        input[type="search"]{
+            font-size: 1.3em;  
+        }
+        button[type="button"]{
+            font-size: 1.3em;
+            border-radius: 0 2px 2px 0;
+            background-color: rgb(192, 141, 192);
+        }
+
+        button[type="button"]:hover{
+            background-color: pink;
+            cursor: pointer;
+    
+        }
+
+        .Search-form{
+            display: flex;
+            justify-content: center;
+             align-content: center;
+             flex-wrap: wrap;
+            
+        }
+
+        input[type="search"]{
+              flex: 2 0 455px;
+        }
+
+        button[type="button"]{
+            flex: 1 0 90px;
+        } 
+
+        @media all and (min-width: 455px){
+            
+            body {
+	                 width: 100%;
+	                 margin: 0;
+	                 padding: 1em 0 2em;
+                     background-color:aqua
+                }
+                header {
+	                    padding: 2% 5%;
+                        }
+
+        }
+          
+
+    </style>
+</head>
+<body>
+    
+    <form class="Search-form">
+    <input type="search" name="search" placeholder="Search this site" class="input-Searchbox">
+    <button type="button" class="Search-btn">Search</button>
+    </form>
+
+</body>
+</html>
